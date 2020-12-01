@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("form");
 
   form.addEventListener('submit' function(event)){
-    Event.preventDefault
+    event.preventDefault
 
     let inputTag = document.querySelector('input#new-task-description');
     let inputValue = inputTag.value;
