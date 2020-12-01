@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     ulTag.append(newLi);
     inputTag.value = '';
 
-    })
-    });	});
-  }
+    });
+
 });
